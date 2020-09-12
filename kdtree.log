@@ -1,0 +1,20 @@
+ESTIMATE of time to complete assignment: 6 hr
+Date	Time Started	Time Spent	Work Completed
+----	------------	----------	--------------
+11/16		 10:00pm		  1:30	Read through assignment and brainstormed kdtree algorithms. Started writing kdtree_create.
+11/17		  9:40pm		  3:00	Worked on recursive functions for each kdtree.h function except nearest.
+11/18		  3:15pm		  1:00	Finished kdtree.h functions and passed all public test cases.
+11/18		  9:00pm		  1:45	Debugged all valgrind errors and met efficiency requirements.
+				  TOTAL time: 7:15
+
+My biggest challenge working on this assignment was conceptually understanding recursion.
+For each kdtree.h function that I had to implement, I had to come up with a respective
+separate function that could be used recursively. In attempting to do this, I had to meet
+the efficiency requirements specified in the assignment. One example of this was only
+using mergeSort twice and then properly sorting each half of each array so it could be
+put as a parameter back into the same function. Thus, I had a lot of conditionals that
+relied on which dimension I was cutting along. Another difficulty for me was meeting the
+efficiency requirement for nearest neighbor. It took me a while to understand bounding
+boxes and implement them to make nearest neighbor much more efficient. 
+
+I discussed my solution and brainstormed with Max Yuan, Matthew Nam, and Joshua Eberhardt.
